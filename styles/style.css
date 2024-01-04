@@ -1,5 +1,49 @@
 *{
     padding:0;
     margin: 0;
-    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    background-color: bisque;
+}
+.flag-container{
+    width: 500px;
+    height: 250px;
+    background-color: green;
+    display: flex;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-40%);
+}
+.middle-circle{
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.flag-handle{
+    width: 40px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: 90%;
+    right: 142%;
+    border-top-right-radius: 30px;
+    transform: translate
+}
+.flag-bottom{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10%;
+
 }
